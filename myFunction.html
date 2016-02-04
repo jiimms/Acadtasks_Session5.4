@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Assigments/Session5</title>
+		  <style>
+		  	body {width:100%; }
+				div { width:30%; font-weight: bold; background-color: skyBlue;
+							color: navy;
+							border: 20px solid navy;
+							padding:20px; }
+		  </style>
+		  
+		</head>
+
+		<body>
+			<h1>Assignment 4 of Session 5</h1>
+			<h4>Problem Statement: Display "Hello World!" in "p" element</h4>
+			
+			<div>
+				<p id ="demo"></p>
+				<script type="text/javascript">
+					function  myFunction() {
+        	return "Hello World!"
+        	}
+		    	var para = document.createElement("p")
+
+
+		    	var x = document.createTextNode(myFunction());
+
+		    	para.appendChild(x);
+        	document.getElementById("demo").appendChild(para);
+				</script>
+					
+			</div>
+										
+			<p class ="eoa">End of assignment 3 of Session 5.</p>
+		</body>
+	</html>
+
